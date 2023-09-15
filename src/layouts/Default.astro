@@ -1,0 +1,103 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+const { title, description, pubDate, updatedDate, heroImage, author } = Astro.props;
+---
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+   <style>
+      body {
+      font-family: "Noto Sans Japanese", sans-serif;
+      }
+   </style>   
+</head>
+<body>
+   <div class="grid grid-cols-12 gap-0">
+      <div class="col-span-12 md:col-span-4 lg:col-span-3">
+        <aside id="sidebar" class="hidden md:block bg-gray-900 h-full px-10">
+          <a href="#" id="close-menu" class="inline-block md:hidden" onclick="closeSidebar()">
+             <svg class="absolute top-5 right-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+             </svg>
+          </a>
+          <div class="sticky h-screen top-0 py-20 flex flex-wrap content-center">
+             <div class="w-full">
+                <a href="/"><img src="https://media.publit.io/file/Yamazaki.png" alt="dabiddo" class="border-2 border-white justify-center inline-block rounded-full object-cover object-center h-24 w-24 md:h-48 md:w-48"></a>
+             </div>
+             <div>
+                <ul class="w-full mt-20">
+                   <li class="mb-5"><a href="/" class="text-gray-300 hover:text-white">Home</a></li>
+                   <!--<li class="mb-5"><a href="single.html" class="text-gray-300 hover:text-white">Single Post Layout</a></li>-->
+                   <li class="mb-5"><a href="#" class="text-gray-300 hover:text-white">About</a></li>
+                </ul>
+             </div>
+             <div class="w-full mt-20">
+                <p class="font-extrabold text-gray-300 mt-5">メキシコ人がメキシコを紹介する</p>
+             </div>
+          </div>
+       </aside>
+      </div>
+      <div class="col-span-12 md:col-span-8 lg:col-span-9">
+        <main class="p-4 md:p-5">
+          <!-- Blog Post Start-->
+          <article class="bg-white rounded shadow p-6 md:p-7 lg:p-9">
+             <!--<a href="#" class="font-bold text-red-500">Tech</a>-->
+             <h1 class="font-black text-xl sm:text-2xl md:text-3xl lg:text-5xl mt-2">{title}</h1>
+             <div class="mt-4 mb-3 text-sm text-gray-700 flex items-center">
+                <a href="#" class="font-bold text-gray-600">{author}</a> 
+                <span class="ml-3">
+                   <svg class="inline mr-1 -mt-0.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                   </svg>
+                   <FormattedDate date={pubDate} />
+                </span>
+             </div>
+             <div id="content" class="prose prose-sm sm:prose lg:prose-lg mx-auto mt-4 md:mt-6">
+                <slot/>
+             </div>
+          </article>
+          <!-- Blog Post End-->
+          <!-- Post Navigation Start-->
+          <!--<div class="grid grid-cols-12 gap-0 mt-4 md:mt-5">
+             <div class="col-span-6 text-right pr-4">
+                <a href="#" class="font-bold text-gray-700 hover:text-red-500 text-base md:text-lg"><img class="inline" src="assets/images/left.svg"> Previous Post</a>
+             </div>
+             <div class="col-span-6 text-left pl-4">
+                <a href="#" class="font-bold text-gray-700 hover:text-red-500 text-base md:text-lg">Next Post <img class="inline" src="assets/images/right.svg"></a>
+             </div>
+          </div>-->
+          <!-- Post Navigation End-->
+       </main>
+      </div>
+    </div>
+</body>
+<html>
+
+
+
+<script>
+   function openSidebar() {
+    var sidebar = document.getElementById('sidebar');
+  sidebar?.classList.add('fixed', 'top-0', 'right-0', 'left-0','bottom-0', 'z-10');
+  sidebar?.classList.remove('hidden');
+}
+
+function closeSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar?.classList.remove('fixed', 'top-0', 'right-0', 'left-0','bottom-0', 'z-10');
+    sidebar?.classList.add('hidden');
+}
+</script>
+<style>
+  img:{
+    margin:4px;
+  }
+</style>
