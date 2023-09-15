@@ -3,8 +3,8 @@ FROM node:18.17-bookworm-slim
 WORKDIR /app
 
 RUN apt update && \
-    apt install git && \
-    apt install openssh
+    apt install git -y
+ #   apt install openssh
 
 RUN npm install -g pnpm
 
