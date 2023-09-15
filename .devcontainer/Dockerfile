@@ -1,10 +1,10 @@
-FROM node:18.17-alpine 
+FROM node:18.17-bookworm-slim 
 
 WORKDIR /app
 
-RUN apk update && \
-    apk add git && \
-    apk add openssh
+RUN apt update && \
+    apt install git && \
+    apt install openssh
 
 RUN npm install -g pnpm
 

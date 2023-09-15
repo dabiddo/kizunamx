@@ -1,16 +1,14 @@
 {
-    "name":"kizunamx",
-    "build": { "dockerfile": "Dockerfile" },
-        "forwardPorts": [
-                3000
-        ],
-        "customizations": {
-                "vscode": {
-                        "extensions": [
-							"astro-build.astro-vscode",
-							"bradlc.vscode-tailwindcss",
-							"ms-azuretools.vscode-docker"
-						]
-                }
-        }
+  "name": "kizunamx",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
 }
