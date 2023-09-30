@@ -12,9 +12,19 @@ tags: ['mekishiko','dokuritsu']
  
 今週のニュースを見ていました. 
 
-<div class="grid m-5 place-items-center">
+<div class="m-5 place-items-center max-w-l">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tOeV5v770KU?si=oGTh0zQQlCQJRef5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div 
+    	class="relative h-0 overflow-hidden max-w-full w-full" 
+		style="padding-bottom: 56.25%"
+ 	>
+		<iframe
+       		src="https://www.youtube.com/embed/tOeV5v770KU?si=oGTh0zQQlCQJRef5"
+            frameborder="0"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+	</div>
 
 </div>
 

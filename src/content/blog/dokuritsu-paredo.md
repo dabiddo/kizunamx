@@ -16,7 +16,7 @@ tags: ['mekishiko','dokuritsu']
 色々の街でパレードがありますがメキシコシティで一番大切なパレードがあります.
 
 テレビで見ることが出来ます。
-<div class="grid m-5 place-items-center">
+<div class="md:grid m-5 place-items-center">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5F64NrKLVYk?si=x1lDnhqMW99KeMh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
