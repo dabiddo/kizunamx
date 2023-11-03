@@ -37,7 +37,7 @@ tags: ['mekishiko','obon','densetsu']
 </p>
 <br>
 
-### 違ちがう伝説
+### <ruby><rb>違</rb><rp>(</rp><rt>ちが</rt><rp>)</rp></ruby>う伝説
 <p>
 女性はお金がない(<ruby><rb>貧乏</rb><rp>(</rp><rt>びんぼう</rt><rp>)</rp></ruby>)、男性はお金持ち
 
@@ -54,7 +54,7 @@ tags: ['mekishiko','obon','densetsu']
 
 また、<ruby><rb>不実</rb><rp>(</rp><rt>ふじつ</rt><rp>)</rp></ruby>な男たちを<ruby><rb>反省</rb><rp>(</rp><rt>はんせい</rt><rp>)</rp></ruby>させるために 現れるとも言われます。
 
-色々な街に、違ちがう名前があります。例えば、私の街では、ジョローナは「白いドレスの女」と知しられて、<ruby><rb>夜遅</rb><rp>(</rp><rt>よるおそく</rt><rp>)</rp></ruby>に家に帰<ruby><rb>酔</rb><rp>(</rp><rt>よ</rt><rp>)</rp></ruby>った男性の前に 現れます。
+色々な街に、違う名前があります。例えば、私の街では、ジョローナは「白いドレスの女」と知しられて、<ruby><rb>夜遅</rb><rp>(</rp><rt>よるおそく</rt><rp>)</rp></ruby>に家に帰<ruby><rb>酔</rb><rp>(</rp><rt>よ</rt><rp>)</rp></ruby>った男性の前に 現れます。
 </p>
 <br>
 <br>
