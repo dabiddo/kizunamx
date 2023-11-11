@@ -1,6 +1,6 @@
 ---
 title: '野中金吾 「革命のサムライ」'
-description: 'メキシコのミュージックビデオ'
+description: 'メキシコ革命　PT1'
 pubDate: '11-04-2023'
 heroImage: '/blog-placeholder-3.jpg'
 author: 'Dabiddo'
