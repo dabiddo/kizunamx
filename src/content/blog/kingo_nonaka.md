@@ -1,7 +1,7 @@
 ---
 title: '野中金吾 「革命のサムライ」'
 description: 'メキシコ革命'
-pubDate: '11-04-2023'
+pubDate: '11-18-2023'
 heroImage: '/blog-placeholder-3.jpg'
 author: 'Dabiddo'
 tags: ['mekishiko','nihon','yuusha']
