@@ -1,6 +1,6 @@
 ---
 title: '野中金吾 「革命のサムライ」'
-description: 'メキシコ革命　PT1'
+description: 'メキシコ革命'
 pubDate: '11-04-2023'
 heroImage: '/blog-placeholder-3.jpg'
 author: 'Dabiddo'
@@ -13,6 +13,8 @@ tags: ['mekishiko','nihon','yuusha']
 このテーマについて<ruby>詳<rp>(</rp><rt>くわ</rt><rp>)</rp></ruby>しく<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>するには<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くの<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>がかかるため、Wikipediaのリンクをご<ruby>覧<rp>(</rp><rt>らん</rt><rp>)</rp></ruby>ください：<br>
 
 [**wikipedia メキシコ革命**](https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3%E9%9D%A9%E5%91%BD)
+<br>
+<br>
 
 メキシコ<ruby>革命<rp>(</rp><rt>かくめい</rt><rp>)</rp></ruby>のおかげで、こんにち、<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>たちは<ruby>憲法<rp>(</rp><rt>けんぽう</rt><rp>)</rp></ruby>や<ruby>国民的<rp>(</rp><rt>こくみんてき</rt><rp>)</rp></ruby><ruby>英雄<rp>(</rp><rt>えいゆう</rt><rp>)</rp></ruby>による<ruby>豊富<rp>(</rp><rt>ほうふ</rt><rp>)</rp></ruby>な<ruby>歴史<rp>(</rp><rt>れきし</rt><rp>)</rp></ruby><ruby>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby><ruby>物語<rp>(</rp><rt>ものがたり</rt><rp>)</rp></ruby>を<ruby>語<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>ることができます。その<ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>には、<ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby><ruby>出身<rp>(</rp><rt>しゅっしん</rt><rp>)</rp></ruby>の<ruby>野中<rp>(</rp><rt>のなか</rt><rp>)</rp></ruby><ruby>金吾<rp>(</rp><rt>きんご</rt><rp>)</rp></ruby>もふくまれています。
 <br>
@@ -61,7 +63,28 @@ tags: ['mekishiko','nihon','yuusha']
 <br>
 <br>
 
-#### 来週に続きます。
+### 革命後で
+
+1915<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>、<ruby>看護<rp>(</rp><rt>かんご</rt><rp>)</rp></ruby><ruby>師<rp>(</rp><rt>し</rt><rp>)</rp></ruby>のペトラ・ガルシア・オルテガと<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>い、<ruby>結婚<rp>(</rp><rt>けっこん</rt><rp>)</rp></ruby>して5<ruby>人<rp>(</rp><rt>にん</rt><rp>)</rp></ruby>の<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>をもうけた。
+<br>
+１９２１<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>にバハカリフォルニア<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きました、<ruby>写真<rp>(</rp><rt>しゃしん</rt><rp>)</rp></ruby>スタジオを<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>まりました。3<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby><ruby>後<rp>(</rp><rt>ご</rt><rp>)</rp></ruby>でメキシコ<ruby>人<rp>(</rp><rt>じん</rt><rp>)</rp></ruby>になりました。
+
+<div class="grid m-5 place-items-center max-w-l">
+<div class="m-5">
+
+![tijuana]( https://media.publit.io/file/blogstuff/tijuana.jpg)
+</div>
+</div>
+
+ティフアナの<ruby>写真<rp>(</rp><rt>しゃしん</rt><rp>)</rp></ruby>を<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>りました。３００<ruby>写真<rp>(</rp><rt>しゃしん</rt><rp>)</rp></ruby>をティフアナの<ruby>生活<rp>(</rp><rt>せいかつ</rt><rp>)</rp></ruby>について<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>りました。
+<br>
+<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>二<ruby>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby><ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby><ruby>大戦<rp>(</rp><rt>たいせん</rt><rp>)</rp></ruby><ruby>中<rp>(</rp><rt>ちゅう</rt><rp>)</rp></ruby>ですから、<ruby>野中<rp>(</rp><rt>のなか</rt><rp>)</rp></ruby>さんと３００ぐらい<ruby>日本人<rp>(</rp><rt>にほんじん</rt><rp>)</rp></ruby>とメキシコシティに<ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>められました。
+
+1972<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>、ルイス・エチェベリア<ruby>大統領<rp>(</rp><rt>だいとうりょう</rt><rp>)</rp></ruby>から<ruby>敬意<rp>(</rp><rt>けいい</rt><rp>)</rp></ruby>を<ruby>表<rp>(</rp><rt>ひょう</rt><rp>)</rp></ruby>する<ruby>式典<rp>(</rp><rt>しきてん</rt><rp>)</rp></ruby>が<ruby>行<rp>(</rp><rt>おこな</rt><rp>)</rp></ruby>われました。
+<br>
+この<ruby>革命<rp>(</rp><rt>かくめい</rt><rp>)</rp></ruby>の<ruby>英雄<rp>(</rp><rt>えいゆう</rt><rp>)</rp></ruby>は1977<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>12<ruby>月<rp>(</rp><rt>がつ</rt><rp>)</rp></ruby>に<ruby>亡<rp>(</rp><rt>な</rt><rp>)</rp></ruby>くなりました。
+
+<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>の<ruby>遺体<rp>(</rp><rt>いたい</rt><rp>)</rp></ruby>はメキシコシティのパンテオン・ハルディンに<ruby>埋葬<rp>(</rp><rt>まいそう</rt><rp>)</rp></ruby>されました。
 
 <style>
     #content {
