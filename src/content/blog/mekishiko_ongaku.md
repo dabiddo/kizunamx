@@ -7,7 +7,7 @@ author: 'Dabiddo'
 tags: ['mekishiko','ongaku']
 ---
 
-メキシコの<ruby><rb>音楽</rb><rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>グループが<ruby><rb>日本</rb><rp>(</rp><rt>にっぽん</rt><rp>)</rp></ruby>に<ruby><rb>行</rb><rp>(</rp><rt>い</rt><rp>)</rp></ruby>ったこというニュースを<ruby><rb>見</rb><rp>(</rp><rt>み</rt><rp>)</rp></ruby>ました。
+メキシコの<ruby><rb>音楽</rb><rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>グループが<ruby><rb>日本</rb><rp>(</rp><rt>にっぽん</rt><rp>)</rp></ruby>に<ruby><rb>行</rb><rp>(</rp><rt>い</rt><rp>)</rp></ruby>ったいうニュースを<ruby><rb>見</rb><rp>(</rp><rt>み</rt><rp>)</rp></ruby>ました。
 
 **エル・レコドでした**。
 
