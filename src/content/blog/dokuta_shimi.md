@@ -1,6 +1,6 @@
 ---
 title: 'ドクターシミ'
-description: 'メキシコの'
+description: 'ぬいぐるみ キャラクター'
 pubDate: '06-01-2024'
 heroImage: '/blog-placeholder-3.jpg'
 author: 'Dabiddo'
@@ -15,7 +15,7 @@ tags: ['mekishiko','caracters']
 <br>
    
 <div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
+     <img src="https://media.publit.io/file/blogstuff/Snapshot-2024-05-25-09-16-24.png">
 </div>
 
 ## ちょっとした
@@ -26,22 +26,33 @@ tags: ['mekishiko','caracters']
 </p>
 
 <div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
+     <img src="https://media.publit.io/file/blogstuff/f-similares.jpeg">
 </div>
 
 <p>
 シミラレス<ruby><rb>薬局</rb><rp>(</rp><rt>やっきょく</rt><rp>)</rp></ruby>は１９９７<ruby><rb>年</rb><rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>にできました。<br>
 <ruby><rb>自分</rb><rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>の<ruby><rb>会社</rb><rp>(</rp><rt>かいしゃ</rt><rp>)</rp></ruby>で<ruby><rb>薬</rb><rp>(</rp><rt>くすり</rt><rp>)</rp></ruby>を<ruby><rb>作</rb><rp>(</rp><rt>つく</rt><rp>)</rp></ruby>ることで、<ruby><rb>値段</rb><rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>を<ruby><rb>安</rb><rp>(</rp><rt>やす</rt><rp>)</rp></ruby>くして、<ruby><rb>有名</rb><rp>(</rp><rt>ゆうめい</rt><rp>)</rp></ruby>になりました。<br>
 </p>
-
-<div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
-</div>
-
-
+<br>
 <p>
 <ruby><rb>新</rb><rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しく<ruby><rb>薬局</rb><rp>(</rp><rt>やっきょく</rt><rp>)</rp></ruby>ができる<ruby><rb>時</rb><rp>(</rp><rt>とき</rt><rp>)</rp></ruby>には、「ドクターシミ」のマスコットキャラクターに<ruby><rb>会</rb><rp>(</rp><rt>あ</rt><rp>)</rp></ruby>えます。<br>
 </p>
+<br>
+
+<div class="m-5 place-items-center max-w-l">
+<div 
+    	class="relative h-0 overflow-hidden max-w-full w-full" 
+		style="padding-bottom: 56.25%"
+ 	>
+		<iframe
+       		src="https://www.youtube.com/embed/LVXU2zFCk60?si=Jyweojfu7bnmZhLI"
+            frameborder="0"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+	</div>
+</div>
+
 <br>
 
 ## ぬいぐるみ
@@ -51,6 +62,21 @@ tags: ['mekishiko','caracters']
 ２００７<ruby><rb>年</rb><rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>から「ドクターシミ」のぬいぐるみが<ruby><rb>作</rb><rp>(</rp><rt>つく</rt><rp>)</rp></ruby>られ<ruby><rb>始</rb><rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>めました。
 </p>
 <br>
+
+<div class="m-5 place-items-center max-w-l">
+<div 
+    	class="relative h-0 overflow-hidden max-w-full w-full" 
+		style="padding-bottom: 56.25%"
+ 	>
+		<iframe
+       		src="https://www.youtube.com/embed/mwwebF-S6Bg?si=FWGUQxg_ZvEywIoR"
+            frameborder="0"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+	</div>
+</div>
+
 
 ### ぬいぐるみの意味
 
@@ -65,8 +91,19 @@ CINIAのウェブサイトに「ドクターシミ」のぬいぐるみの<ruby>
 <br>
 
 <div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
+<div 
+    	class="relative h-0 overflow-hidden max-w-full w-full" 
+		style="padding-bottom: 56.25%"
+ 	>
+		<iframe
+       		src="https://www.youtube.com/embed/jhTDHHLe6Rw?si=5jujOUZqbXojl-lo"
+            frameborder="0"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+	</div>
 </div>
+
 <br>
 
 
@@ -79,7 +116,7 @@ CINIAのウェブサイトに「ドクターシミ」のぬいぐるみの<ruby>
 <br>
 
 <div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
+     <img src="https://media.publit.io/file/blogstuff/carinaysim.jpeg">
 </div>
 <br>
 
@@ -96,7 +133,7 @@ CINIAのウェブサイトに「ドクターシミ」のぬいぐるみの<ruby>
 <br>
 
 <div class="m-5 place-items-center max-w-l">
-     <img src="https://placehold.co/600x400">
+     <img src="https://media.publit.io/file/blogstuff/similandia2024.png">
 </div>
 <br>
 <style>
