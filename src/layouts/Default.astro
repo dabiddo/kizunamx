@@ -101,12 +101,14 @@ const { title, description, pubDate, updatedDate, heroImage, author } =
                         <ul class="w-full mt-20">
                            <li class="mb-5">
                               <a href="/" class="text-gray-300 hover:text-white"
-                                 >Home</a>
+                                 >Home</a
+                              >
                            </li>
                            <!--<li class="mb-5"><a href="single.html" class="text-gray-300 hover:text-white">Single Post Layout</a></li>-->
                            <li class="mb-5">
                               <a href="#" class="text-gray-300 hover:text-white"
-                                 >About</a>
+                                 >About</a
+                              >
                            </li>
                         </ul>
                      </div>
@@ -134,7 +136,8 @@ const { title, description, pubDate, updatedDate, heroImage, author } =
                               for="furiganaToggle"
                               class="flex items-center cursor-pointer select-none gap-2"
                            >
-                              <span class="text-sm text-gray-700">Furigana</span>
+                              <span class="text-sm text-gray-700">Furigana</span
+                              >
                               <div class="relative">
                                  <input
                                     type="checkbox"
@@ -143,10 +146,12 @@ const { title, description, pubDate, updatedDate, heroImage, author } =
                                  />
                                  <div
                                     class="block h-6 rounded-full bg-gray-200 dark:bg-gray-600 w-12"
-                                 ></div>
+                                 >
+                                 </div>
                                  <div
                                     class="absolute w-5 h-5 transition bg-white rounded-full shadow left-0.5 top-0.5 peer-checked:translate-x-full peer-checked:bg-blue-500"
-                                 ></div>
+                                 >
+                                 </div>
                               </div>
                            </label>
                         </div>
@@ -226,22 +231,22 @@ const { title, description, pubDate, updatedDate, heroImage, author } =
       sidebar?.classList.add("hidden");
    }
 
-   const toggle = document.getElementById('furiganaToggle') as HTMLInputElement;
-   const content = document.querySelector('article') as HTMLElement;
-   
+   const toggle = document.getElementById("furiganaToggle") as HTMLInputElement;
+   const content = document.querySelector("article") as HTMLElement;
+
    // Load saved preference
-   const isFuriganaEnabled = localStorage.getItem('furiganaEnabled') === 'true';
+   const isFuriganaEnabled = true;
    toggle.checked = isFuriganaEnabled;
-   
+
    // Handle toggle changes
-   toggle.addEventListener('change', () => {
+   toggle.addEventListener("change", () => {
       const isEnabled = toggle.checked;
-      localStorage.setItem('furiganaEnabled', isEnabled.toString());
-      
+      localStorage.setItem("furiganaEnabled", isEnabled.toString());
+
       if (isEnabled) {
-         content.classList.remove('hide-furigana');
+         content.classList.remove("hide-furigana");
       } else {
-         content.classList.add('hide-furigana');
+         content.classList.add("hide-furigana");
       }
    });
 </script>
