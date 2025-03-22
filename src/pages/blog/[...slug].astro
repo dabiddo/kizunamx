@@ -1,24 +1,104 @@
 ---
-import { type CollectionEntry, getCollection } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
-import Default from '../../layouts/Default.astro';
-
+import { type CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import { render } from "astro:content";
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
+	const posts = await getCollection("blog");
 	return posts.map((post) => ({
-		params: { slug: post.slug },
+		params: { slug: post.id },
 		props: post,
 	}));
 }
-type Props = CollectionEntry<'blog'>;
+type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
-<!--<BlogPost {...post.data}>
-	<Content />
-</BlogPost>-->
-<Default {...post.data}>
-	<Content />
-</Default>
+<BlogPost {...post.data}>
+	<div class="bg-white rounded shadow p-6 md:p-7 lg:p-9">
+		<div class="flex items-center justify-between gap-4">
+			<h1 class="text-2xl font-bold">{post.data.title}</h1>
+			<label
+				for="furiganaToggle"
+				class="flex items-center cursor-pointer select-none gap-2"
+			>
+				<span class="text-sm text-gray-700">Furigana</span>
+				<div class="relative">
+					<input
+						type="checkbox"
+						id="furiganaToggle"
+						class="peer sr-only"
+					/>
+					<div
+						class="block h-6 w-12 rounded-full bg-gray-200 dark:bg-gray-600"
+					>
+					</div>
+					<div
+						class="absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white shadow transition peer-checked:translate-x-full peer-checked:bg-blue-500"
+					>
+					</div>
+				</div>
+			</label>
+		</div>
+		<div class="mt-2 text-sm text-gray-700 flex items-center">
+			<a href="#" class="font-bold text-gray-600">{post.data.author}</a>
+			<span class="ml-3 flex items-center">
+				<svg
+					class="mr-1 -mt-0.5"
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<circle cx="12" cy="12" r="10"></circle>
+					<polyline points="12 6 12 12 16 14"></polyline>
+				</svg>
+				<FormattedDate date={post.data.pubDate} />
+			</span>
+		</div>
+
+		<article>
+			<Content />
+		</article>
+	</div>
+</BlogPost>
+<style>
+	:global(.hide-furigana rt) {
+		display: none;
+	}
+</style>
+
+<script>
+	const toggle = document.getElementById(
+		"furiganaToggle",
+	) as HTMLInputElement;
+	const content = document.querySelector("article") as HTMLElement;
+
+	// Load saved preference if exists, else default to true
+	const savedPreference = localStorage.getItem("furiganaEnabled");
+	const isFuriganaEnabled = savedPreference === "true" || false;
+
+	// Initialize the toggle's checked state based on the saved preference
+	toggle.checked = isFuriganaEnabled;
+
+	// Handle toggle changes
+	toggle.addEventListener("change", () => {
+		const isEnabled = toggle.checked;
+		localStorage.setItem("furiganaEnabled", isEnabled.toString());
+
+		if (content) {
+			if (isEnabled) {
+				content.classList.remove("hide-furigana");
+			} else {
+				content.classList.add("hide-furigana");
+			}
+		}
+	});
+</script>
