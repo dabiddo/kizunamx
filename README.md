@@ -1,68 +1,59 @@
-# Astro Starter Kit: Blog
+# KizunaMexico (絆メキシコ)
 
-```sh
-pnpm create astro@latest -- --template blog
-```
+![KizunaMexico Logo](public/favicon.svg)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+[KizunaMexico](https://www.kizunamexico.com/) is a Japanese-language blog dedicated to sharing interesting facts, culture, and stories about Mexico. The site serves a dual purpose: helping the author practice Japanese writing skills while providing valuable information about Mexican culture to Japanese speakers.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌮 Project Overview
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+KizunaMexico (絆メキシコ) aims to build cultural bridges ("kizuna" means "bond" in Japanese) between Mexico and Japan through engaging content written in Japanese. Topics include Mexican traditions, food, travel destinations, history, and contemporary culture.
 
-Features:
+## 🚀 Technology
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+This blog is built with [Astro](https://astro.build/), a modern static site generator that provides:
 
-## 🚀 Project Structure
+- ✅ Excellent performance (100/100 Lighthouse score)
+- ✅ SEO-friendly structure with canonical URLs and OpenGraph data
+- ✅ Sitemap and RSS feed support
+- ✅ Markdown & MDX support for easy content creation
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Project Structure
 
 ```text
-├── public/
+├── public/           # Static assets (images, favicon, etc.)
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+│   ├── components/   # Reusable UI components
+│   ├── content/      # Blog posts and content collections
+│   ├── layouts/      # Page layout templates
+│   └── pages/        # Page routes and templates
+├── astro.config.mjs  # Astro configuration
+└── package.json      # Project dependencies
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧞 Development Commands
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Command | Action |
+| :------ | :----- |
+| `pnpm install` | Install dependencies |
+| `pnpm dev` | Start development server at `localhost:4321` |
+| `pnpm build` | Build production site to `./dist/` |
+| `pnpm preview` | Preview production build locally |
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+## ✍️ Content Creation
 
-Any static assets, like images, can be placed in the `public/` directory.
+Blog posts are written in Markdown or MDX format and stored in the `src/content/blog/` directory. Each post includes frontmatter with metadata such as title, publication date, and tags.
 
-## 🧞 Commands
+## 🌐 Visit the Site
 
-All commands are run from the root of the project, from a terminal:
+Explore Mexican culture in Japanese at [https://www.kizunamexico.com/](https://www.kizunamexico.com/)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## 📝 Contributing
 
-## 👀 Want to learn more?
+Interested in contributing? Feel free to:
+- Submit corrections for Japanese language content
+- Suggest topics about Mexico that might interest Japanese readers
+- Report bugs or technical issues
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📄 License
 
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This project is licensed under the [MIT License](LICENSE).
