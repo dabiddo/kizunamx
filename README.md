@@ -2,7 +2,7 @@
 
 ![KizunaMexico Logo](public/favicon.svg)
 
-[KizunaMexico](https://www.kizunamexico.com/) is a Japanese-language blog dedicated to sharing interesting facts, culture, and stories about Mexico. The site serves a dual purpose: helping the author practice Japanese writing skills while providing valuable information about Mexican culture to Japanese speakers.
+[KizunaMexico](https://www.kizunamexico.com/) is a Japanese-language blog dedicated to sharing interesting facts, culture, and stories about Mexico. The site serves a dual purpose: helping me practice Japanese writing skills while providing valuable information about Mexican culture to Japanese speakers.
 
 ## 🌮 Project Overview
 
@@ -14,7 +14,7 @@ This blog is built with [Astro](https://astro.build/), a modern static site gene
 
 - ✅ Excellent performance (100/100 Lighthouse score)
 - ✅ SEO-friendly structure with canonical URLs and OpenGraph data
-- ✅ Sitemap and RSS feed support
+- ✅ Sitemap and RSS feed support (work in progress)
 - ✅ Markdown & MDX support for easy content creation
 
 ## 📂 Project Structure
@@ -41,7 +41,7 @@ This blog is built with [Astro](https://astro.build/), a modern static site gene
 
 ## ✍️ Content Creation
 
-Blog posts are written in Markdown or MDX format and stored in the `src/content/blog/` directory. Each post includes frontmatter with metadata such as title, publication date, and tags.
+Blog posts are written in Markdown format and stored in the `src/content/blog/` directory. Each post includes frontmatter with metadata such as title, publication date, and tags.
 
 ## 🌐 Visit the Site
 
@@ -54,6 +54,8 @@ Interested in contributing? Feel free to:
 - Suggest topics about Mexico that might interest Japanese readers
 - Report bugs or technical issues
 
-## 📄 License
+## 👨‍💻 Author
 
-This project is licensed under the [MIT License](LICENSE).
+**Dabiddo**
+- GitHub: [@dabiddo](https://github.com/dabiddo)
+- Twitter/X: [@dabiddokun](https://twitter.com/dabiddokun)
